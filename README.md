@@ -53,10 +53,10 @@ Setup
 5. Clone repo to your local system
 6. with the repo open in your editor of choice, run:
 
-
 ```code
 npm init -y
 ```
+
 then
 
 ```code
