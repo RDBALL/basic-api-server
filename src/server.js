@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3003;
 app.use(logger);
 app.use(express.json());
 
-// app.use(foodRoute);
+app.use(foodRoute);
 // app.use(clothesRoute);
 
 
