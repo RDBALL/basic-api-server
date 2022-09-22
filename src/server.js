@@ -17,7 +17,7 @@ app.use(logger);
 app.use(express.json());
 
 app.use(foodRoute);
-// app.use(clothesRoute);
+app.use(clothesRoute);
 
 
 app.get('/', (req, res) => {
